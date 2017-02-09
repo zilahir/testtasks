@@ -1,5 +1,11 @@
-1)
+#Teszt feladatok megoldása
 
-2)
+#1. feladat
 
-3)
+*adatbázis: ergomania.sql
+*child-theme: `wp-content/themes/twentyseventeen-child/`
+
+##2. feladat
+`/addnumbers/index.html`
+##3. feladat
+`/shoppinglist/index.html`
