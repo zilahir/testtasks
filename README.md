@@ -3,7 +3,8 @@
 #1. feladat
 
 *adatbázis: ergomania.sql
-*child-theme: `wp-content/themes/twentyseventeen-child/`
+- child-theme: `wp-content/themes/twentyseventeen-child/`
+
 
 ##2. feladat
 `/addnumbers/index.html`
