@@ -29,4 +29,23 @@ $(document).ready(function() {
             // empty the input box
         $("#newitemvalue").val("");
     });
+
+    $('#searchinput').on('input', function() {
+    // implement searching
+    var searchString = $("#searchinput").val();
+    var allItem = $("#list-items li");
+    $.each(allItem, function(index, element) {
+          //var n = searchString.indexOf($(this).text());
+          var n = $(this).text().indexOf(searchString);
+          //console.log(n);
+          if (n!== -1) {
+            $(this).removeClass("hidden");
+          } else {
+            $(this).addClass("hidden");
+          }
+
+      });
+    });
+
+
 });
