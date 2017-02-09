@@ -5,7 +5,7 @@
 *adatbázis: ergomania.sql
 - child-theme: `wp-content/themes/twentyseventeen-child/`
 - custom css: `wp-content/themes/twentyseventeen/assets/css/custom.min.css`
-- custom js: wp-content/themes/twentyseventeen/assets/css/custom.min.js`
+- custom js: `wp-content/themes/twentyseventeen/assets/css/custom.min.js`
 - minify: <br/>
 `rzilahi$ gulp compress` <br/>
 `[19:17:29] Using gulpfile ~/ergomania/gulpfile.js` <br/>
