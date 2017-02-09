@@ -15,7 +15,7 @@ var minify = require('gulp-minifier');
 
 gulp.task('compress', function() {
 
-  gulp.src('wp-content/themes/twentyseventeen/assets/css/custom.css').pipe(minify({
+  gulp.src('wp-content/themes/twentyseventeen/assets/css/custom.min.css').pipe(minify({
     minify: true,
     collapseWhitespace: true,
     conservativeCollapse: true,
@@ -27,7 +27,7 @@ gulp.task('compress', function() {
     }
   })).pipe(gulp.dest('wp-content/themes/twentyseventeen/assets/css/min'));
 
-  gulp.src('wp-content/themes/twentyseventeen/assets/js/custom.js').pipe(minify({
+  gulp.src('wp-content/themes/twentyseventeen/assets/js/custom.min.js').pipe(minify({
     minify: true,
     collapseWhitespace: true,
     conservativeCollapse: true,
