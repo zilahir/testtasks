@@ -2,7 +2,7 @@
 
 #1. feladat
 
-*adatbázis: ergomania.sql
+*adatbázis: `ergomania.sql`
 - child-theme: `wp-content/themes/twentyseventeen-child/`
 - custom css: `wp-content/themes/twentyseventeen/assets/css/custom.min.css`
 - custom js: `wp-content/themes/twentyseventeen/assets/css/custom.min.js`
