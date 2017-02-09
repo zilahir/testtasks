@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>add two numbers</title>
+    <style>
+    .class {
+      width: 300px;
+    }
+    #result {
+      padding: 20px;
+      background-color: #fdfd96;
+      font-size: 30px;
+    }
+    </style>
+
+
+  </head>
+  <body>
+    <input class="input" type="text" id="firstnumber" />
+    <input class="input" type="text" id="secondnumber" />
+    <input type="submit" value="calc" />
+    <div id="result">
+
+    </div>
+  </body>
+
+  <script>
+  function addInputs() {
+ messages.textContent = +input.value + +input2.value;
+  }
+
+  var input = document.querySelector('#firstnumber');
+  var input2 = document.querySelector('#secondnumber')
+  var messages = document.querySelector('#result');
+  input.addEventListener('input', addInputs);
+  input2.addEventListener('input', addInputs);
+  
+  </script>
+
+</html>

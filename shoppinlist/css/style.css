@@ -1,0 +1,37 @@
+/* rzilahi shopping list css */
+
+#main {
+  margin-top: 40px;
+}
+
+.del-item {
+  background-color: #ff6961;
+}
+
+.del-item:hover {
+  cursor: pointer;
+}
+
+#menu {
+  background-color: #f9f9f9;
+  height: 40px;
+  padding: 10px;
+}
+
+#menu:hover {
+  cursor: pointer;
+}
+
+.fa-plus:hover {
+  cursor: pointer;
+  color: #77dd77;
+}
+
+#newitemadding {
+margin-bottom: 20px;
+}
+
+.custom-btn {
+  width: 100%;
+  border-radius: 0px;
+}
