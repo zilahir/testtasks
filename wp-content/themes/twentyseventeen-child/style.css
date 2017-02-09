@@ -11,3 +11,34 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  twenty-seventeen-child
 */
+
+
+@import ("../twentyseventeen/assets/css/colors/colors-dark.css");
+
+body {
+  display: none;
+}
+
+.current-menu-item {
+  padding: 1px;
+  background-color: #f9f9f9;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+blockquote {
+  font-style: normal;
+  font-size: 30px;
+  border-left: 3px solid #444;
+  padding: 20px;
+
+}
+
+span.testimonial-client::before {
+  content: "– ";
+}
+
+span.testimonial-client {
+  font-size: 15px;
+  font-weight: 100;
+}
