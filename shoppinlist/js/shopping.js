@@ -24,9 +24,7 @@ $(document).ready(function() {
                 currentCounter = currentCounter-1;
                 var itemToDel = ($(this));
                 var idToDel = $(this).data("id");
-                itemToDel.fadeOut();
-                //decrease the counter
-
+                itemToDel.fadeOut(); //removing the item from the list
             })
             // empty the input box
         $("#newitemvalue").val("");
